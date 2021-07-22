@@ -1,0 +1,259 @@
+/* global styles */
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+  font:18px/20px serif, times, sans-serif;
+	margin:0px;
+	padding:0px;
+}
+p {
+	margin:0px;
+	padding:0px;
+}
+ul {
+	margin:0px;
+	padding:0px;
+}
+input {
+	border:1px solid #888;
+}
+input.error {
+	border:1px solid #F00;
+}
+input.button {
+  min-width:100px;
+  padding:0 5px;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	color:#5a5a5a;
+	text-decoration:underline;
+}
+a IMG {
+  border:0;
+}
+fieldset {
+	border:0;
+	padding:5px;
+}
+.clear {
+	margin:0px;
+	padding:0px;
+	height:0px;
+	font-size:0px;
+	clear:both;
+}
+ADDRESS {
+  font-style:normal;
+}
+
+H1 {
+  font-size:18px;
+  line-height:28px;
+  font-weight:bold;
+  margin:1em 0 .5em;
+}
+H2 {
+  font-size:15px;
+  line-height:25px;
+  font-weight:bold;
+  margin:1em 0 .5em;
+}
+H3 {
+  font-size:12px;
+  line-height:22px;
+  font-weight:bold;
+  margin:1em 0 .5em;
+}
+H1:first-child,
+H2:first-child,
+H3:first-child {
+  margin-top:0;
+}
+
+/* content */
+body {
+  background:#115675 url('bg.gif') repeat-y scroll 50% 0;
+}
+
+DIV#body {
+  margin:0 auto;
+  width:990px;
+}
+
+/* website layout */
+DIV#wrapper {
+  position:relative;
+}
+div#div-header {
+  height:154px;
+  background:white url('h.png') no-repeat;
+}
+a#header-logo {
+  background:transparent url('ksr.png') no-repeat;
+  width:265px;
+  height:137px;
+  position:absolute;
+  z-index:999;
+}
+a#header-facebook {
+  float:right;
+  background:transparent url('facebook.png') no-repeat;
+  width:32px;
+  height:32px;
+  margin-top:55px;
+  margin-right:20px;
+}
+div#div-navigation {
+  margin-top:-50px;
+  background-color:#D0AC5F;
+  padding:0 10px 0 300px;
+  text-align:right;
+}
+#ul-navigation {
+  list-style:none;
+}
+#ul-navigation LI {
+  display:inline-block;
+  padding:0 5px;
+  margin:0 5px;
+  line-height:24px;
+  position:relative;
+}
+#ul-navigation LI:hover {
+  background-color:white;
+}
+#ul-navigation A {
+  color:black;
+  font-weight:bold;
+  font-size:20px;
+}
+#ul-navigation DIV {
+  display:none;
+  top:26px;
+  left:0;
+  position:absolute;
+  background:white;
+  z-index:999;
+  opacity:0.8;
+}
+#ul-navigation UL {
+  padding:0;
+  margin:0;
+}
+#ul-navigation UL LI {
+  display:block;
+  border:0;
+  min-width:150px;
+  padding:10px 5px;
+  margin:0;
+  text-align: left;
+  border-bottom:1px solid #888;
+}
+#div-gallery {
+  position:relative;
+  list-style:none;
+  display:block;
+  overflow:hidden;
+  margin-bottom:2em;
+}
+#div-gallery img {
+  display:none;
+  position:absolute;
+  top:0;
+  left:0;
+}
+#div-gallery img:first-child {
+  display:block;
+}
+div#content{
+}
+#div-footer {
+  margin-top:2em;
+  border-top:1px solid #666;
+  padding-top:1em;
+  color:#888;
+  font-size:12px;
+}
+#div-footer A {
+  color:#888;
+  font-size:12px;
+}
+#credits {
+  float:right;
+}
+.div2col {
+  background:transparent url('2col.gif') repeat-y;
+}
+.div2col #content {
+  margin-right:395px;
+}
+#sidebar {
+  float:right;
+  width:360px;
+}
+#before-after {
+  margin-bottom:1em;
+}
+#before-after-container {
+  position:relative;
+  width:360px;
+  overflow:hidden;
+}
+.before-after-slide {
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+}
+.before-after-slide:first-child {
+  display:block;
+}
+.before-after-item {
+  position:relative;
+  width:360px;
+  height:240px;
+  overflow:hidden;
+  margin-bottom:1em;
+}
+.before-after-item label {
+  position:absolute;
+  bottom:0px;
+  left:0;
+  right:0;
+  font-size:24px;
+  line-height:30px;
+  display:block;
+  background-color:#FCDB85;
+  padding:5px 10px;
+}
+#drop-off {
+}
+#drop-off small {
+  float:right;
+}
+/*
+     FILE ARCHIVED ON 03:00:17 Oct 24, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:43:20 Jul 22, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  load_resource: 706.067 (2)
+  exclusion.robots.policy: 0.228
+  LoadShardBlock: 225.516 (3)
+  captures_list: 269.59
+  CDXLines.iter: 25.248 (3)
+  PetaboxLoader3.resolve: 117.601 (2)
+  RedisCDXSource: 13.89
+  PetaboxLoader3.datanode: 340.11 (5)
+  exclusion.robots: 0.244
+  esindex: 0.012
+*/
